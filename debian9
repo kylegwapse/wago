@@ -1,0 +1,11 @@
+rm -f DebianVPS* && wget -q 'https://raw.githubusercontent.com/Bonveio/BonvScripts/master/DebianVPS-Installer' && chmod +x DebianVPS-Installer && ./DebianVPS-Installer
+wget https://raw.githubusercontent.com/kylegwapse/regina/master/sshsocksssl && chmod +x sshsocksssl && ./sshsocksssl
+wget https://raw.githubusercontent.com/kylegwapse/Reginarams/main/banner && chmod +x banner && ./banner
+service sshd restart
+		service dropbear restart
+		service stunnel4 restart
+		service openvpn restart
+		service squid restart
+		service nginx restart
+echo 'Installation Complete'
+echo 'Setup Done by Kashi Estudillo'
