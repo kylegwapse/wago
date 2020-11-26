@@ -1,5 +1,3 @@
-#!/bin/bash
-ln -fs /usr/share/zoneinfo/Asia/Manila /etc/localtime
 echo 'CuteVPN Script'
 echo -e ""
 echo -e " Choose VPN Server installation type:"
